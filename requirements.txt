@@ -17,7 +17,7 @@ python-decouple
 python-dateutil~=2.8.2
 pytz~=2024.1
 num2words~=0.5.13
-psutil~=5.9.0
+psutil~=7.2.2
 
 # Networking & API
 requests
