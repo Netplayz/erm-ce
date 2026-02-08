@@ -1,7 +1,7 @@
 # Core Frameworks
 git+https://github.com/Rapptz/discord.py
 fastapi~=0.112.2
-uvicorn~=0.30.6
+uvicorn~=0.40.0
 
 # Database & Models
 motor~=3.6.0
