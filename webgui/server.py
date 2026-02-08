@@ -142,7 +142,7 @@ def get_system_info() -> Dict:
     except Exception as e:
         logging.error(f"Error getting system info: {e}")
         return {
-            "error": str(e),
+            "error": "Internal error while collecting system information",
             "timestamp": datetime.now().isoformat()
         }
 
@@ -174,7 +174,7 @@ def get_bot_info() -> Dict:
         logging.error(f"Error getting bot info: {e}")
         return {
             "status": "error",
-            "error": str(e)
+            "error": "Internal error while collecting bot information"
         }
 
 
